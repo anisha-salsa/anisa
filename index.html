@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .zoom {
+            transition: transform 0.3s ease-in-out;
+        }
+        .zoom:hover {
+            transform: scale(1.1);
+            
+        }
+        .quantity-control button {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    </style>
+  </head>
+  <body>
+    <header
+    class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+  >
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#home" class="font-bold text-primary text-lg block py-6"
+            >annisha salsabilla</a
+          >
+        </div>
+        <div class="flex items-center px-4">
+          <button
+            id="hamburger"
+            name="hamburger"
+            type="button"
+            class="block absolute right-4 lg:hidden"
+          >
+            <span
+              class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+            ></span>
+            <span class="hamburger-line transition duration-300 ease-in-out">
+            </span>
+            <span
+              class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+            ></span>
+          </button>
+          <nav
+            id="nav-menu"
+            class="hidden absolute py-5 lg:block lg:static lg:max-w-full bg-transparent lg:max bg-white shadow-lg rounded-md lg:rounded-none lg:shadow-none max-w-[250px] w-full right-4 top-full"
+          >
+            <ul class="block lg:flex lg:rounded-none lg:shadow-none">
+              <li class="group">
+                <a
+                  class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                  href="#menu"
+                  >aktivitas</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                  href="#Motivasi"
+                  >Tujuan</a
+                >
+              </li>
+            
+              <li class="group">
+                <a
+                  class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- home section -->
+    <section id="home" class="pt-32">
+<div class="container ">
+    <div class="flex flex-wrap ">
+        <div class="w-full self-center lg:w-2/3 px-4 pl-10">
+            <h1 class="font-bold  text-3xl">Halo</h1>
+            <p class="text-xl font-semibold text-slate-500 leading-relaxed mb-5">saya annisha salsabilla <span class="text-bold text-slate-800 "> dari prodi teknik informatika </span> </p>
+        </div>
+        <div class="w-full px-4 self-center lg:w-1/3 ">
+            <div class="mt-10 lg:right-0 lg:w-mt-0  relative ">
+            <img src="1.jpeg" alt="milkcoffee" class="mx-auto w-40 rounded-full shadow-lg">
+            </div>
+        </div>
+    </div>
+
+</div>
+    <section>
+        <!-- home section end -->
+<section class="pt-32 scroll-smooth" id="menu">
+    <div class="container">
+        <div class="w-full px-4">
+
+            <div class="max-w-xl text-center w-full mx-auto mb-4">
+                <h1 class="capitalize text-4xl text-slate-800 font-bold">Aktivitas</h1>
+            </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-evenly xl:w-10/12 mx-auto">
+           <div class="mb-4 p-4 md:w-1/2">
+            <div class="rounded-lg overflow-hidden  shadow-lg  zoom">
+                <img src="2.jpeg" alt="futsal" class="w-[500px] h-96  " height="100px">
+            
+                <p id="p" class="font-medium capitalize pt-2 "> pengalaman selama 2 berjabat sebagai wakil futsal dan sekestaris futsal sekolah</p>
+            </div>
+           </div>
+           <div class="mb-4 p-4 md:w-1/2">
+            <div class="rounded-lg overflow-hidden shadow-lg zoom ">
+                    <img src="3.jpeg" alt="" class="w-[500px] h-96" height="100px" >
+                <p class="font-medium capitalize pt-2 ">kenangan paskibra dan kenangan tampil paskib terakhir
+                </p>
+            </div>
+           </div>
+          
+
+        </div>
+    </div>
+</section>
+<section id="Motivasi">
+    <div class="container pt-20">
+        <div class="w-full mx-auto font-bold text-2xl text-center capitalize">
+            <h1 class="pb-3">Tujuan</h1>
+            <p> tujuan saya masuk ke prodi ini karna saya ingin melanjutkan test abdi saya yang gagal di tahun 2023 dan ingin mencoba test lagi melalui jalur sarjana teknik informatika  </p>
+        </div>
+    </div>
+</section>
+<footer id="contact" class="pt-32 w-full ">
+    <div class="container lg:w-full bg-slate-500 rounded-sm shadow-sm pb-5">
+        <div class="w-full p-4 ">
+            
+            <h2 class="text-center font-bold text-3xl ">Contact Us</h2>
+        </div>
+    
+      
+        
+   
+        <div class="flex  ml-5">
+            <a href="https://Instagram.com/annshasllsabla" class="text-center">
+
+                <svg role="img" viewBox="0 0 24 24" width="25" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+            </a>
+      <h4 class="ml-6 text-xl font-bold text-slate-100 text-center" href="https://Instagram.com/annshasllsabla">annshasllsabla</h4>
+      
+        </div>
+     
+      
+        
+        
+    </div>
+</footer>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        feather.replace();
+    });
+    </script>
+
+<script src="script.js"></script>
+    </body>
+
+    
+</html>
